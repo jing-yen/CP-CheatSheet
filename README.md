@@ -679,7 +679,7 @@ const_reference& queue::front() const;
 #### 1.4.6 Double-ended Queue
 
 ```C++
-#include <dequeue>
+#include <deque>
 ```
 
 #### 1.4.7 Stack
