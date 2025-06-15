@@ -605,6 +605,18 @@ template < class Key,                                    // unordered_map::key_t
 
 #### 1.4.2 Pair
 
+##### Constructor
+
+```c++
+pair<T1, T2> p(v1, v2);
+auto p = make_pair(v1, v2);
+```
+
+##### Members
+
+* first
+* second
+
 #### 1.4.3 Vector
 
 ##### Constructor
