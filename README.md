@@ -447,8 +447,8 @@ Member function
 
 ```c++
 struct Edge {
-   int from, to, weight;
-	bool operator<(Edge that) const {
+    int from, to, weight;
+    bool operator<(Edge that) const {
         return weight > that.weight;
     }
 };
@@ -458,8 +458,8 @@ verbal version
 
 ```c++
 struct Edge {
-   int from, to, weight;
-	bool operator<(const Edge& that) const {
+    int from, to, weight;
+    bool operator<(const Edge& that) const {
         return this->weight > that.weight;
     }
 };
