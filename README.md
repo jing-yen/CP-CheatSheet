@@ -549,7 +549,7 @@ size()
 operator[] // if not found, insert one
 
 insert(pair<first type, second type>)
-emplace(pair<first type, second type>) // in-place
+emplace(first_type_value, second_type_value)    // Constructs pair in-place
 erase()
 clear()
 
