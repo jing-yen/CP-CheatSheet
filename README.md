@@ -389,8 +389,8 @@ void iter_swap (ForwardIterator1 a, ForwardIterator2 b);
 int myints[]={10,20,30,40,50 };              //   myints:  10  20  30  40  50
 std::vector<int> myvector (4,99);            // myvector:  99  99  99  99
 
-std::iter_swap(myints + 3,myvector.begin() + 2); //   myints:  99  20  30 [99] 50
-                                             // myvector:  10  99 [40] 99
+std::iter_swap(myints + 3,myvector.begin() + 2); //   myints:  10  20  30 [99] 50
+                                             // myvector:  99  99 [40] 99
 ```
 
 #### 1.3.5 Heap
